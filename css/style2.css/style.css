@@ -1,0 +1,337 @@
+*
+.content {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.body1 {
+  padding-bottom: 25rem;
+  font-family: 'Poppins', sans-serif; }
+
+.name {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.button {
+  margin-left: 20rem; }
+
+.content .description {
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.content .description2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 1.5rem; }
+
+.js {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  display: flex; }
+
+.html {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto; }
+
+.python {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto; }
+
+.php {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.static3 {
+  max-width: 192px;
+  height: 192px; }
+
+.section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.body1 {
+  background-repeat: no-repeat;
+  padding-bottom: 25rem;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh; }
+
+.bodyS {
+  background-image: linear-gradient(to top, #011d36 20%, #003dbf 80%); }
+
+.header {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 15rem;
+  background: url("/image fixe/pexels-billel-moula-540518.jpg");
+  background-size: cover; }
+
+.static {
+  position: absolute;
+  background: white;
+  width: 100px;
+  height: 100px; }
+
+.active {
+  width: 100px;
+  height: 100px; }
+
+.static:hover {
+  opacity: 0; }
+
+.static2 {
+  position: absolute;
+  background: white;
+  width: 100px;
+  height: 100px; }
+
+.static2:hover {
+  opacity: 0; }
+
+.static3 {
+  position: absolute;
+  background: white;
+  width: 100px;
+  height: 100px; }
+
+.static3:hover {
+  opacity: 0; }
+
+.robot {
+  border-radius: 0.25rem; }
+
+.illustration {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media screen and (max-width: 900px) {
+  .name {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 0; }
+  .description2 {
+    font-size: 1rem;
+    padding-left: 0; }
+  .title {
+    font-size: 1.5rem; }
+  .button {
+    margin-left: 0; }
+  .static3 {
+    max-width: 100px;
+    height: 100px; }
+  .static2 {
+    max-width: 100px;
+    height: 100px; }
+  .static {
+    max-width: 100px;
+    height: 100px; }
+  .robot {
+    max-width: 100px;
+    height: 100px; }
+  .js {
+    max-width: 100px;
+    height: 100px; }
+  .html {
+    max-width: 100px;
+    height: 100px; }
+  .python {
+    max-width: 100px;
+    height: 100px; }
+  .php {
+    max-width: 100px;
+    height: 100px; }
+  .body1 {
+    padding-bottom: 0; }
+  .bodyS {
+    padding-bottom: 0; }
+  .section {
+    height: 50vh; }
+  .header {
+    height: 10rem; } }
+
+@media screen and (max-width: 400px) {
+  .section2 {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 992px) {
+  .robot {
+    display: none; } }
+
+@media screen and (max-width: 400px) {
+  .section2 .static {
+    width: 10rem; }
+  .section2 .active {
+    width: 10rem; } }
+
+@media screen and (max-width: 400px) {
+  .content {
+    height: 10rem; } }
+
+@media screen and (max-width: 400px) {
+  header {
+    height: 2rem; } }
+
+.content2 .name {
+  font-size: 1.5rem;
+  color: white; }
+
+.content2 .description {
+  font-size: 1.5rem;
+  color: white; }
+
+.content2 .button {
+  margin-left: 0; }
+
+@media screen and (max-width: 400px) {
+  .content2 .name {
+    font-size: 1rem;
+    color: white; }
+  .content2 .description {
+    font-size: 1rem;
+    color: white; }
+  .content2 .button {
+    margin-left: 0rem; } }
+
+.parcours .cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 15rem;
+  margin-left: 50rem; }
+
+.cv1 {
+  width: 20rem;
+  height: 19.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.25rem; }
+
+.cv1:hover {
+  transition: opacity 0.5s;
+  opacity: 0.5; }
+
+/*contact*/
+.contact-parent {
+  display: flex;
+  margin: 80px 0; }
+
+.contact-child {
+  display: flex;
+  flex: 1;
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75); }
+
+.child1 {
+  background: url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 100px 0; }
+
+.child1 p {
+  padding-left: 20%;
+  font-size: 20px;
+  text-shadow: 0px 0px 2px #000; }
+
+.child1 p span {
+  font-size: 16px;
+  color: #9df2fd; }
+
+.child2 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.inside-contact {
+  width: 90%;
+  margin: 0 auto; }
+
+.inside-contact h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px; }
+
+.inside-contact h3 {
+  text-align: center;
+  font-size: 16px;
+  color: #0085e2; }
+
+.inside-contact input, .inside-contact textarea {
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.48);
+  padding: 5px 10px;
+  margin-bottom: 20px; }
+
+.inside-contact input[type=submit] {
+  background-color: #000;
+  color: #fff;
+  transition: 0.2s;
+  border: 2px solid #000;
+  margin: 30px 0; }
+
+.inside-contact input[type=submit]:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.2s; }
+
+input {
+  border-radius: 0.25rem; }
+
+@media screen and (max-width: 991px) {
+  .contact-parent {
+    display: block;
+    width: 100%; }
+  .child1 {
+    display: none; }
+  .child2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+    background-size: cover; }
+  .inside-contact input, .inside-contact textarea {
+    background-color: #fff; } }

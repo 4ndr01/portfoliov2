@@ -1,0 +1,89 @@
+<?php
+
+if (!empty($_GET['mail'])) {
+    mail('marvin.hoguet@gmail.com',$_GET['object'],$_GET['message'] );
+
+}
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="faviconio-logo/logo.png">
+    <link rel="stylesheet" href="css/style2.css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P98LSKQ');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>portfolio</title>
+
+
+</head>
+<body class="video">
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P98LSKQ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div>
+    <div class="container">
+        <div class="contact-parent">
+            <div class="contact-child child1">
+
+            </div>
+
+            <div class="contact-child child2">
+                <div class="inside-contact">
+                    <h2>Me contacter</h2>
+
+
+                    <p>Name *</p>
+                    <input id="txt_name" type="text" Required="required">
+
+                    <p>Email *</p>
+                    <input id="txt_email" type="email" value="marvin.hoguet@gmail.com" Required="required">
+
+
+                    <p>Subject *</p>
+                    <input id="txt_subject" name="object" type="text" Required="required">
+
+                    <p>Message *</p>
+                    <textarea id="txt_message" name="message" rows="4" cols="20" Required="required"></textarea>
+
+                    <input type="submit" id="btn_send" value="SEND">
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <button class="button is-black is-outlined">Envoyer</button>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  height-width: 5rem;
+  height-height: 3rem;
+  height-margin-bottom: 5rem;
+}
+
+.title {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+
+.columns2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  width: calc(100% / 4 - 1%);
+}
+
+.columns2 .columns1 {
+  display: none;
+  /*à remettre en js le moment voulu */
+}
+
+/*# sourceMappingURL=style2.css.map */
